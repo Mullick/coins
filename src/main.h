@@ -1245,7 +1245,7 @@ public:
         return (int64)nTime;
     }
 
-    CBigNum GetBlockTrust() const
+    CBigNum GetBlockTrust() const;
    
 
     bool IsInMainChain() const
